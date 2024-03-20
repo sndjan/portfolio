@@ -1,8 +1,11 @@
 .box {
-    background-color: lightcoral;
-    width: 95%;
+    background-color: #0a192f;
+    width: 98%;
     height: 50px;
+    border-style: solid;
     border-radius: 10px;
+    border-color: #64ffda;
+    border-width: 1px;
     margin-top: 10px;
     margin: 2% auto;
     display: flex;
@@ -20,7 +23,7 @@
 }
 
 .title {
-    color: white;
+    color: #64ffda;
     font-size: 20px;
 }
 
