@@ -1,0 +1,32 @@
+* {
+    font-family: "SFMono";
+}
+
+.aboutBox {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.intro {
+    margin: 0px 40px;
+}
+
+.hi {
+    font-size: clamp(.5rem, 1vw + 1rem, 50rem)
+}
+
+.name {
+    font-size: clamp(2rem, 5vw + 1rem, 100rem)
+}
+
+.text {
+    width: 300px;
+    margin: 80px 40px;
+}
+
+@font-face {
+    font-family: "SFMono";
+    src: url('../../public/fonts/sf-mono/SFMonoMedium.otf');
+  }
