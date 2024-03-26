@@ -8,7 +8,7 @@ function Projects() {
       <div className={ProjectOverviewCSS.headline}>Projects</div>
       <div className={ProjectOverviewCSS.box}>
         <Project
-          imgURL="public/images/BucketOfEarth.png"
+          imgURL="./images/BucketOfEarth.png"
           imgAlt="Game-Screenshot"
           link="https://infinitario.itch.io/bucket-of-earth"
           tech="Unity, C#, Aseprite"
@@ -17,7 +17,7 @@ function Projects() {
           Bucket of Earth
         </Project>
         <Project
-          imgURL="public/images/Portfolio.png"
+          imgURL="./images/Portfolio.png"
           imgAlt="Website-Screenshot"
           link="https://github.com/sndjan/portfolio"
           tech="React, Typescript, HTML, CSS"
@@ -26,7 +26,7 @@ function Projects() {
           Portfolio
         </Project>
         <Project
-          imgURL="public/images/Glow.png"
+          imgURL="./images/Glow.png"
           imgAlt="Game-Screenshot"
           link="https://infinitario.itch.io/glow"
           tech="Unity, C#, Photoshop"
@@ -35,7 +35,7 @@ function Projects() {
           Glow
         </Project>
         <Project
-          imgURL="public/images/SpeisenOase.png"
+          imgURL="./images/SpeisenOase.png"
           imgAlt="Shop-Screenshot"
           link="https://gitlab.mi.hdm-stuttgart.de/js485/speisen-oase"
           tech="Java, JavaFX, JSON"
