@@ -15,7 +15,6 @@
     text-align: center;
     vertical-align: middle;
     line-height: 60px;
-
 }
 
 .link {
@@ -23,6 +22,7 @@
     font-size: 15px;
     font-family: "SFMono";
     cursor: pointer;
+    text-decoration: none;
 }
 
 .link:hover {
@@ -33,3 +33,47 @@
     font-family: "SFMono";
     src: url('/fonts/sf-mono/SFMonoMedium.otf');
   }
+
+.bar {
+    width: 40px;
+    height: 4px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    background-color: #64ffda;
+}
+
+.burgerMenu {
+    display: none;
+    margin-top: 40px;
+}
+
+.menuLinks {
+    display: none;
+    
+}
+
+
+.menuLinks > * {
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .outerbox {
+      display: none;
+    }
+    .burgerMenu {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .burgerMenu:hover{
+        cursor: pointer;
+    }
+    .menuActive {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+  }
+  
