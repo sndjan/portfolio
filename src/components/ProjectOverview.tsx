@@ -1,4 +1,3 @@
-import React from "react";
 import Project from "./Project";
 import ProjectOverviewCSS from "../modules/ProjectOverview.module.css";
 
