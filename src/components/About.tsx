@@ -5,12 +5,12 @@ function About() {
     <>
       <div className={AboutCSS.aboutBox}>
         <div className={AboutCSS.intro}>
-          <div className={AboutCSS.hi}>Hi, my name is</div>
+          <div className={AboutCSS.hi}>Hi, mein Name ist</div>
           <div className={AboutCSS.name}>Jan Sander</div>
         </div>
         <div className={AboutCSS.text}>
-          Hello! My name is Jan and I study Medieninformatik at the Hochschule
-          der Medien in Stuttgart.
+          Hallo! Ich bin Jan Sander und ich studiere Medieninformatik an der
+          Hochschule der Medien in Stuttgart-Vaihingen.
         </div>
       </div>
     </>

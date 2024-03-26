@@ -1,0 +1,14 @@
+.box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    row-gap: 100px;
+    column-gap: 50px;
+}
+
+.headline {
+    font-size: clamp(2rem, 5vw + 1rem, 100rem);
+    text-align: center;
+    margin-top: 15%;
+}
