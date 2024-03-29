@@ -1,0 +1,29 @@
+.box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    row-gap: 100px;
+    column-gap: 50px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.headline {
+    font-size: clamp(2rem, 5vw + 1rem, 100rem);
+    text-align: center;
+    margin-top: 15%;
+}
+
+.box > * {
+    color: white;
+    margin: 20px 20px;
+    font-size: clamp(2rem, 5vw + 1rem, 100rem);
+    /*padding: 20px;
+    border: #64ffda solid 1px;
+    border-radius: 20px;*/
+}
+
+.box > *:hover {
+    color: #64ffda;
+}
