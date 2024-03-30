@@ -11,7 +11,9 @@ import {
 function Contact() {
   return (
     <>
-      <h1 className={ContactCSS.headline}>Contact</h1>
+      <h1 id="contact" className={ContactCSS.headline}>
+        Contact
+      </h1>
       <div className={ContactCSS.box}>
         <a
           href="https://github.com/sndjan"

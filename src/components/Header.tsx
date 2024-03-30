@@ -26,7 +26,7 @@ function Header() {
         <a href="#projectOverview" className={HeaderCSS.link}>
           Projects
         </a>
-        <a href="" className={HeaderCSS.link}>
+        <a href="#contact" className={HeaderCSS.link}>
           Contact
         </a>
       </div>
@@ -42,7 +42,7 @@ function Header() {
           </a>
         </div>
         <div className={HeaderCSS.box}>
-          <a href="" className={HeaderCSS.link}>
+          <a href="#contact" className={HeaderCSS.link}>
             Contact
           </a>
         </div>

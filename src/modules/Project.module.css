@@ -8,6 +8,12 @@
     margin: 20px;
     overflow: hidden; 
     background-color: #0a192f;
+    transition: .2s;
+    height: 655px;
+}
+
+.box:hover {
+    box-shadow: 5px 5px 0px #64ffda;
 }
 
 .imgContainer {
@@ -22,15 +28,22 @@
 }
 
 .box > a {
+    position: absolute;
     color: #e3fdf7;
-    font-size: 30px;
-    font-family: "SFMono";
     cursor: pointer;
-    margin-top: 20px;
+    width: 500px;
+    height: 655px;
+    display:block;
 } 
 
-.box > a:hover {
+.box > a:hover + p:first-of-type {
     color: #64ffda;
+    transition: .2s;
+}
+
+p:first-of-type {
+    color: #e3fdf7;
+    font-size: 30px;
 }
 
 .description {

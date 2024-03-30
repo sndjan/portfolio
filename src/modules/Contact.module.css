@@ -1,6 +1,6 @@
 .box {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     margin-top: 5%;
     row-gap: 100px;
@@ -19,11 +19,13 @@
     color: white;
     margin: 20px 20px;
     font-size: clamp(2rem, 5vw + 1rem, 100rem);
-    /*padding: 20px;
+    padding: 10px 20px;
     border: #64ffda solid 1px;
-    border-radius: 20px;*/
+    border-radius: 20px;
 }
 
 .box > *:hover {
     color: #64ffda;
+    box-shadow: 5px 5px 0px #64ffda ;
+    transition: .2s;
 }

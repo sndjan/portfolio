@@ -23,9 +23,8 @@ const Project = ({
         <div className={ProjectCSS.imgContainer}>
           <img src={imgURL} alt={imgAlt} />
         </div>
-        <a href={link} target="_blank" rel="noopener noreferrer">
-          {children}
-        </a>
+        <a href={link} target="_blank" rel="noopener noreferrer"></a>
+        <p>{children}</p>
         <p>{tech}</p>
         <p className={ProjectCSS.description}>{description}</p>
       </div>
