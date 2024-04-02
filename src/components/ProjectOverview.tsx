@@ -9,6 +9,15 @@ function Projects() {
       </div>
       <div className={ProjectOverviewCSS.box}>
         <Project
+          imgURL="./images/WhereIsBob.png"
+          imgAlt="Website-Screenshot"
+          link="https://sndjan.github.io/whereis/"
+          tech="React, Typescript, HTML, CSS"
+          description="A fun little Web-Game, where you have to find Bob."
+        >
+          Where is Bob?
+        </Project>
+        <Project
           imgURL="./images/Portfolio.png"
           imgAlt="Website-Screenshot"
           link="https://github.com/sndjan/portfolio"
