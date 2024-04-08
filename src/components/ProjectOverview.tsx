@@ -5,7 +5,7 @@ function Projects() {
   return (
     <>
       <div id="projectOverview" className={ProjectOverviewCSS.headline}>
-        Projects
+        Projekte
       </div>
       <div className={ProjectOverviewCSS.box}>
         <Project
@@ -13,7 +13,7 @@ function Projects() {
           imgAlt="Website-Screenshot"
           link="https://sndjan.github.io/whereis/"
           tech="React, Typescript, HTML, CSS"
-          description="A fun little Web-Game, where you have to find Bob."
+          description="Ein kleines Web-Spiel, bei dem man Bob finden muss. (2024)"
         >
           Where is Bob?
         </Project>
@@ -22,7 +22,7 @@ function Projects() {
           imgAlt="Website-Screenshot"
           link="https://github.com/sndjan/portfolio"
           tech="React, Typescript, HTML, CSS"
-          description="Website to showcase my projects and general information about myself."
+          description="Eine Webseite um Projekte von mir und Informationen über mich zu zeigen. (2024)"
         >
           Portfolio
         </Project>
@@ -31,7 +31,7 @@ function Projects() {
           imgAlt="Shop-Screenshot"
           link="https://gitlab.mi.hdm-stuttgart.de/js485/speisen-oase"
           tech="Java, JavaFX, JSON"
-          description="A mockup of a small online marketplace for groceries and various other essentials."
+          description="Ein Mockup eines kleinen Online-Marktplatzes für Lebensmittel und verschiedene andere Dinge. Entstanden in einem Team als Abgabe in der Uni im WS23/24."
         >
           SpeisenOase
         </Project>
@@ -40,7 +40,7 @@ function Projects() {
           imgAlt="Game-Screenshot"
           link="https://infinitario.itch.io/glow"
           tech="Unity, C#, Photoshop"
-          description="A little platformer, where you have to use the light to your advantage. Made in a game jam in 2023"
+          description="Ein kleiner Platformer, bei dem du das Licht zu deinem Vorteil nutzen musst. Entstanden bei einem Team Game-Jam im Jahr 2023"
         >
           Glow
         </Project>
@@ -49,7 +49,7 @@ function Projects() {
           imgAlt="Game-Screenshot"
           link="https://infinitario.itch.io/bucket-of-earth"
           tech="Unity, C#, Aseprite"
-          description="A fun little endless runner, where you have to color the oceans to fit the oncoming paint buckets. Made in a game jam in 2019"
+          description="Ein lustiger kleiner Endlos-Runner, bei dem man die Ozeane so einfärben muss, dass sie zu den entgegenkommenden Farbeimern passen. Entstanden in einem Solo Game-Jam im Jahr 2019 "
         >
           Bucket of Earth
         </Project>

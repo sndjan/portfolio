@@ -33,17 +33,17 @@ function Header() {
       <div className={HeaderCSS.outerbox}>
         <div className={HeaderCSS.box}>
           <a href="#about" className={HeaderCSS.link}>
-            About me
+            Über mich
           </a>
         </div>
         <div className={HeaderCSS.box}>
           <a href="#projectOverview" className={HeaderCSS.link}>
-            Projects
+            Projekte
           </a>
         </div>
         <div className={HeaderCSS.box}>
           <a href="#contact" className={HeaderCSS.link}>
-            Contact
+            Kontakt
           </a>
         </div>
       </div>

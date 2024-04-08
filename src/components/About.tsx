@@ -11,6 +11,12 @@ function About() {
         <div className={AboutCSS.text}>
           Hallo! Ich bin Jan Sander und ich studiere Medieninformatik an der
           Hochschule der Medien in Stuttgart-Vaihingen.
+          <br />
+          <br />
+          Ich spiele leidenschaftlich Tennis, mache regelmäßig Fitnesstraining
+          und liebe es neue Dinge zu lernen oder mir neue Fähigkeiten
+          beizubringen, sei es in der Informatik oder in einem anderen Bereichen
+          meines Lebens.
         </div>
       </div>
     </>

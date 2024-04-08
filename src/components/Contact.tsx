@@ -7,12 +7,18 @@ import {
   faLinkedin,
   faItchIo,
 } from "@fortawesome/free-brands-svg-icons";
+import {
+  faEnvelope,
+  faMailBulk,
+  faMailForward,
+  faMailReply,
+} from "@fortawesome/free-solid-svg-icons";
 
 function Contact() {
   return (
     <>
       <h1 id="contact" className={ContactCSS.headline}>
-        Contact
+        Kontakt
       </h1>
       <div className={ContactCSS.box}>
         <a
@@ -29,9 +35,15 @@ function Contact() {
         >
           <FontAwesomeIcon icon={faGitlab} />
         </a>
+        {/* 
         <a href="" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
+        */}
+        <a href="mailto:sander.jan@gmx.net">
+          <FontAwesomeIcon icon={faEnvelope} />
+        </a>
+
         <a
           href="https://www.instagram.com/sndjan/"
           target="_blank"
