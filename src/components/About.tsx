@@ -15,7 +15,7 @@ function About() {
           <br />
           Ich spiele leidenschaftlich Tennis, mache regelmäßig Fitnesstraining
           und liebe es neue Dinge zu lernen oder mir neue Fähigkeiten
-          beizubringen, sei es in der Informatik oder in einem anderen Bereichen
+          beizubringen, sei es in der Informatik oder in anderen Bereichen
           meines Lebens.
         </div>
       </div>
