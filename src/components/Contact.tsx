@@ -4,15 +4,9 @@ import {
   faGithub,
   faGitlab,
   faInstagram,
-  faLinkedin,
   faItchIo,
 } from "@fortawesome/free-brands-svg-icons";
-import {
-  faEnvelope,
-  faMailBulk,
-  faMailForward,
-  faMailReply,
-} from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 function Contact() {
   return (
