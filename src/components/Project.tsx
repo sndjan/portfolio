@@ -25,7 +25,7 @@ const Project = ({
         </div>
         <a href={link} target="_blank" rel="noopener noreferrer"></a>
         <p>{children}</p>
-        <p>{tech}</p>
+        <p className={ProjectCSS.techContainer}>{tech}</p>
         <p className={ProjectCSS.description}>{description}</p>
       </div>
     </>

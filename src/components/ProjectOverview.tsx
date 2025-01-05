@@ -9,6 +9,24 @@ function Projects() {
       </div>
       <div className={ProjectOverviewCSS.box}>
         <Project
+          imgURL="./images/RewardRun.png"
+          imgAlt="Website-Screenshot"
+          link="http://rewardrun.mi.hdm-stuttgart.de/"
+          tech="Nextjs, Typescript, Springboot, MongoDB"
+          description="RewardRun ist eine Webanwendung, mit der Event-Besucher QR-Codes scannen können, um Belohnungen freizuschalten und ihre Fortschritte zu verfolgen, während Veranstalter eigene Events erstellen und Statistiken einsehen können. (in Entwicklung)"
+        >
+          RewardRun
+        </Project>
+        <Project
+          imgURL="./images/Wuerfelkarte.png"
+          imgAlt="Website-Screenshot"
+          link="https://sndjan.github.io/wuerfelkarte/"
+          tech="React, Typescript, HTML, CSS"
+          description="Eine Tracker für Spiele wie Yatzee oder Kniffel, der automatisch die Ergebnisse ausrechnet. (2024)"
+        >
+          Würfelkarte
+        </Project>
+        <Project
           imgURL="./images/WhereIsBob.png"
           imgAlt="Website-Screenshot"
           link="https://sndjan.github.io/whereis/"
